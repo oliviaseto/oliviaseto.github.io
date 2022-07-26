@@ -1,2 +1,1 @@
 "# oliviaseto.github.io" 
-"Hello"
