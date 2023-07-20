@@ -1,3 +1,16 @@
 html {
     scroll-behavior: smooth;
 }
+.jumbotron {
+    background-color: #F7F9F9;
+}
+footer {
+    background-color: #CFCFEA;
+    box-shadow: 0 50vh 0 50vh #CFCFEA;
+}
+body {
+    background-color: #BCB5C4;
+}
+p {
+    font-size: x-large;
+}
