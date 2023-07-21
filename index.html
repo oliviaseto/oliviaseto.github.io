@@ -15,12 +15,12 @@
 <body>
 <!-- Navigation Bar -->
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #CFCFEA;">
-    <div class="container-fluid">
+    <div2 class="container-fluid">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div3 class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item text-center">
                     <a class="nav-link" href="#about">About</a>
@@ -38,8 +38,8 @@
                     <a class="nav-link" href="#resume">Resume</a>
                 </li>
             </ul>
-        </div>
-    </div>
+        </div3>
+    </div2>
 </nav>
 
 <!-- Header -->
@@ -52,8 +52,15 @@
 
 <!-- About Container -->
 <div class="container-fluid" id="about">
-    <p class="text-center"> Hello! I'm Olivia Seto, a rising third-year pursuing a B.A. in Computer Science 
-        and minors in Data Analytics and Public Policy & Leadership at the University of Virginia. </p>
+    <h2 class="text-center">ABOUT</h2>
+    <p class="text-center"> Hello! I'm Olivia Seto, a rising third-year pursuing a <b>B.A. in Computer Science</b> 
+        and <b>minors in Data Analytics and Public Policy & Leadership</b> at the <b>University of Virginia</b>. </p>
+    <p class="text-center"> I have <b>experience in back-end development</b> through my coursework (Software Development Methods and Advanced Software Development),
+        <b>exposure to front-end development</b> through my website projects (this personal portfolio and csaatuva.org),
+        as well as a <b>strong understanding of computer science principles</b> (Data Structures & Algorithms, Computer Systems & Organizations, and Discrete Math & Theory).</p>
+    <p class="text-center"> In addition to my academic pursuits, I have successfully led the organization of large events during my tenure as <b>Culture Chair of the Chinese Student Association</b> and 
+        am a <b>teaching assistant for an introductory programming class</b>, in which I hold weekly office hours and lead lab sessions.</p>
+    <p class="text-center"><b>I am eagerly seeking software engineering internship roles for Fall 2023 and Summer 2024!</b></p>
 </div>
 
 <!-- Skills Container -->
@@ -129,16 +136,27 @@
 <!-- Projects Container -->
 <div class="container-fluid" id="projects">
     <h2 class="text-center">PROJECTS</h2>
+        <h3>Website of Chinese Student Association at University of Virginia (csaatuva.org)</h3>
+            <ul>
+                <li>Leveraged JavaScript, SCSS, and the Next.js framework to maintain a high-performance website</li>
+                <li>Worked with GitHub, Google Cloud, Namecheap, and Netlify for website management and deployment</li>
+            </ul>
+        <h3>Course Review Application</h3>
+            <ul>
+                <li>Command line interface course review application built with Java/SQLite and three-layer architecture pattern</li>
+                <li>Program allows users to login in with a username and password, write course reviews for UVA courses, and
+                    see reviews for courses</li>
+            </ul>
 </div>
   
 <!-- Resume Container -->
-<div class="container-fluid" id="resume">
+<div class="container-fluid text-center" id="resume">
     <h2 class="text-center">RESUME</h2>
-    <div style="margin:0 auto;text-align:center">
-        <object data= "Olivia Seto - Resume.pdf" 
-            width="800" height="500">
-        </object>
-    </div>
+    <button class="btn" >
+        <a href="Olivia Seto - Resume.pdf" download="Olivia Seto - Resume.pdf">
+            <i class="fa fa-download fa-2xl"></i><p>Download</p>
+        </a> 
+    </button>
 </div>
 
 <!-- Footer -->

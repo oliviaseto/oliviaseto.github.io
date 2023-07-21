@@ -1,16 +1,24 @@
-html {
+html, body {
     scroll-behavior: smooth;
-}
-.jumbotron {
-    background-color: #F7F9F9;
-}
-footer {
-    background-color: #CFCFEA;
-    box-shadow: 0 50vh 0 50vh #CFCFEA;
+    height: 100%;
 }
 body {
     background-color: #BCB5C4;
 }
+.jumbotron {
+    background-color: #F7F9F9;
+}
+.div {
+    margin-bottom: 30px;
+}
+footer {
+    background-color: #CFCFEA;
+    box-shadow: 0 50vh 0 50vh #CFCFEA;
+    margin-bottom: 30px;
+}
 p {
+    font-size: x-large;
+}
+ul {
     font-size: x-large;
 }
