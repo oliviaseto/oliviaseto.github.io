@@ -5,8 +5,8 @@ html, body {
 body {
     background-color: #BCB5C4;
 }
-.jumbotron {
-    background-color: #F7F9F9;
+.headshot {
+    border-radius: 50%;
 }
 div {
     margin-bottom: 20px;
