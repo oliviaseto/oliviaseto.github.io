@@ -15,9 +15,25 @@ footer {
     background-color: #CFCFEA;
     box-shadow: 0 50vh 0 50vh #CFCFEA;
 }
+h1 {
+    font-weight: bold;
+}
+h2 {
+    font-weight: bold;
+}
+h3:not(.header-subtitle)  {
+    text-decoration: underline;
+}
+h4 {
+    font-style: italic;
+}
 p {
     font-size: x-large;
 }
 ul {
     font-size: x-large;
+}
+img:not(.headshot) {
+    width: 80px;
+    height: 80px;
 }
